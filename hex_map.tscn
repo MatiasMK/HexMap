@@ -1,10 +1,12 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://cwoe2v5hchvdd"]
 
-[ext_resource type="Script" path="res://Scripts/HexMap.gd" id="1_gbvng"]
+[ext_resource type="Script" uid="uid://cmwctq8cw2ir2" path="res://Scripts/HexMap.gd" id="1_gbvng"]
+[ext_resource type="Script" uid="uid://3xw6ugs02ywe" path="res://Scripts/CameraController.gd" id="2_6qrjk"]
 
-[node name="HexMap" type="Node2D"]
+[node name="HexMap" type="Node2D" unique_id=540851564]
 script = ExtResource("1_gbvng")
-hex_size = 32.0
-map_radius = 5
-pointy_top = true
-default_tile_type = 0
+map_radius = 20
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=446098969]
+position = Vector2(576, 324)
+script = ExtResource("2_6qrjk")

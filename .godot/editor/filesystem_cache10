@@ -1,5 +1,9 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1778248608
-icon.svg::CompressedTexture2D::6564429987327415099::1778244784::1778248172::1::::<><><>0<>0<>3e417488fc2a0929dae0235f45709cb0<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Scripts/::1778244784
-HexCoords.gd::GDScript::3285751080335058890::1778244784::0::1::::HexCoords<>RefCounted<><>0<>0<><>::
+::res://::1778294141
+hex_map.tscn::PackedScene::6346189450041755125::1778294016::0::1::::<><><>0<>0<><>::uid://cmwctq8cw2ir2::::res://Scripts/HexMap.gd<>uid://3xw6ugs02ywe::::res://Scripts/CameraController.gd
+icon.svg::CompressedTexture2D::6564429987327415099::1778265883::1778265883::1::::<><><>0<>0<>3e417488fc2a0929dae0235f45709cb0<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Scripts/::1778294016
+CameraController.gd::GDScript::2014160504248360696::1778273947::0::1::::<>Camera2D<><>0<>0<><>::
+HexCoords.gd::GDScript::3285751080335058890::1778265883::0::1::::HexCoords<>RefCounted<><>0<>0<><>::
+HexMap.gd::GDScript::5660680057175121077::1778294016::0::1::::HexMap<>Node2D<><>0<>0<><>::
+HexTile.gd::GDScript::7893052883977787719::1778265883::0::1::::HexTile<>RefCounted<><>0<>0<><>::
